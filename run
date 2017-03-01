@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "------------------------------------------------------------------------"
+echo "Test video manifest available at http://[local-ip]:8002/trainstation.mpd"
+echo "------------------------------------------------------------------------"
+./serve-with-cors 8002
