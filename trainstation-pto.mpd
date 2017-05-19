@@ -13,11 +13,11 @@
 		<AdaptationSet contentType="video" segmentAlignment="true" bitstreamSwitching="true">
 			<Representation id="0" mimeType="video/mp4" codecs="avc1.4d401e" bandwidth="800000" width="854" height="480">
 			  <SegmentTemplate
-                              presentationTimeOffset="40"
+                              presentationTimeOffset="491520"
                               timescale="12288"
                               initialization="init-stream$RepresentationID$.m4s"
                               media="chunk-stream$RepresentationID$-$Number%05d$.m4s"
-                              startNumber="21">
+                              startNumber="1">
 					<SegmentTimeline>
 						<S t="0" d="61440" r="24" />
 						<S d="8192" />
